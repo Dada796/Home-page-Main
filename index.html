@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage Main</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav
+        class="max-w-[1050px] mx-auto px-4 py-6 flex justify-between items-center"
+      >
+        <img src="assets/images/logo.svg" alt="logo" />
+        <div
+          class="hidden md:flex justify-between gap-8 text-[var(--Grayishblue)] font-medium"
+        >
+          <a href="#">Home</a>
+          <a href="#">New</a>
+          <a href="#">Popular</a>
+          <a href="#">Trending</a>
+          <a href="#">Categories</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="max-w-[1050px] mx-auto px-4 py-6">
+        <div class="flex flex-col  md:flex-row gap-8 justify-between">
+          <div class="flex flex-col gap-4 md:w-[70%]">
+            <img
+              src="assets/images/image-web-3-mobile.jpg"
+              alt=""
+              class="md:hidden"
+            />
+            <img
+              src="assets/images/image-web-3-desktop.jpg"
+              alt=""
+              class="hidden md:block flex-1"
+            />
+            <div class="flex flex-col md:flex-row justify-between">
+              <div class="md:w-1/2">
+                <h1 class="font-bold mt-2 text-4xl md:text-5xl">
+                  The Bright Future Of Web3.0?
+                </h1>
+              </div>
+              <div class="md:w-1/2">
+                <p class="mt-2">
+                  we dive into the next revolution of web that claims to put the
+                  power of the platforms back into the hands of the people. But
+                  is it really fulfilling its promise
+                </p>
+                <button
+                  class="m-4 bg-[var(--Softred)] p-2 ml-[0] md:w-[50%]"
+                >
+                  READ MORE
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bg-[var(--Verydarkblue)] text-[var(--Off-white)] p-4 md:w-[25%]"
+          >
+            <h1 class="font-bold text-2xl text-[var(--Softorange)] m-2">New</h1>
+            <h2 class="mb-2 font-bold text-sm">Hydrogen VS Electric Cars</h2>
+            <p class="mb-8 text-sm text-[var(--Grayishblue)]">
+              will hydrogen-fueled cars catch up with EVs
+            </p>
+            <hr class="mb-8" />
+            <h2 class="mb-2 font-bold text-sm">The Downside Of Ai Artistry</h2>
+            <p class="mb-8 text-sm text-[var(--Grayishblue)]">
+              what are the possible adverse effects on-demand AI image
+              generation?
+            </p>
+            <hr class="mb-8" />
+            <h2 class="my-2 font-bold text-sm">Is VC Funding Drying Up?</h2>
+            <p class="mb-4 text-sm text-[var(--Grayishblue)]">
+              Private funding by VC firmsd is down 50% YOY. We take a look at
+              what that means
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-col my-8 md:flex-row gap-4 items-center">
+          <div class="flex gap-4 justify-between">
+            <div class="w-[40%]">
+              <img
+                src="assets/images/image-retro-pcs.jpg"
+                alt="image-retro-pcs" class="w-full"
+              />
+            </div>
+            <div class="w-[60%]">
+              <h1 class="text-[var(--Softred)] font-bold">01</h1>
+              <h2 class="font-bold text-sm my-2">Reviving Retro PCs</h2>
+              <p>What happens when old PCs are giving modern upgrade?</p>
+            </div>
+          </div>
+          <div class="flex gap-4 justify-between">
+            <div class="w-[40%]">
+              <img
+                src="assets/images/image-top-laptops.jpg"
+                alt="image-top-laptops" class="w-full"
+              />
+            </div>
+            <div class="w-[60%]">
+              <h1 class="text-[var(--Softred)] font-bold">02</h1>
+              <h2 class="font-bold text-sm my-2">Top 10 Laptops in 2022</h2>
+              <p>Our best picks for various needs and budget</p>
+            </div>
+          </div>
+          <div class="flex gap-4 justify-between">
+            <div class="w-[40%]">
+              <img
+                src="assets/images/image-gaming-growth.jpg"
+                alt="image-gaming-growth" class="w-full"
+              />
+            </div>
+            <div class="w-[60%]">
+              <h1 class="text-[var(--Softred)] font-bold">03</h1>
+              <h2 class="font-bold text-sm my-2">The Growth Of Gaming</h2>
+              <p>How the pandemic has sparked fresh opportunities</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
